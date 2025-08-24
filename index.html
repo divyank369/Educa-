@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Educa — Online Education</title>
+  <!-- Attach your CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Educa — Modern single-page education website with courses, tutors, reviews, and contact form." />
+</head>
+<body>
+  <!-- =========================
+       Header / Top Navigation
+  ========================== -->
+  <header>
+    <div class="logo" aria-label="Educa brand">Educa.</div>
+
+    <nav aria-label="Primary Navigation">
+      <ul>
+        <li><a href="#home"    aria-label="Go to Home">Home</a></li>
+        <li><a href="#about"   aria-label="Go to About">About</a></li>
+        <li><a href="#courses" aria-label="Go to Courses">Courses</a></li>
+        <li><a href="#teachers" aria-label="Go to Teachers">Teachers</a></li>
+        <li><a href="#reviews" aria-label="Go to Reviews">Reviews</a></li>
+        <li><a href="#contact" aria-label="Go to Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Theme toggle (Light/Dark) -->
+    <button id="theme-toggle" type="button" aria-label="Toggle theme">🌙</button>
+  </header>
+
+  <!-- =========================
+       Hero Section
+  ========================== -->
+  <section id="home" class="hero" aria-label="Hero">
+    <div class="hero-text">
+      <!-- Matches screenshot: big headline with highlighted span -->
+      <h1>Online <span>Education</span></h1>
+      <p class="hero-subtext">
+        Learn from expert tutors, master in-demand skills, and accelerate your career.
+      </p>
+      <a href="#contact" class="btn" aria-label="Jump to Contact">Contact Us</a>
+    </div>
+
+    <!-- Right-aligned hero image (Local image; replace with your file) -->
+    <div class="hero-img">
+      <!-- Use your local asset: place under ./images/hero.jpg or Hero.jpeg -->
+      <img src="Study 📚.jpeg" alt="Students studying on laptops" loading="eager" />
+    </div>
+  </section>
+
+  <!-- =========================
+       Stats / Metrics Strip
+  ========================== -->
+  <section class="stats" aria-label="Key Stats">
+    <div class="stat" aria-label="Total Courses">
+      <h3>160+</h3>
+      <p>Courses</p>
+    </div>
+    <div class="stat" aria-label="Enrolled Students">
+      <h3>1500+</h3>
+      <p>Students</p>
+    </div>
+    <div class="stat" aria-label="Expert Teachers">
+      <h3>70+</h3>
+      <p>Teachers</p>
+    </div>
+    <div class="stat" aria-label="Satisfaction Rate">
+      <h3>100%</h3>
+      <p>Satisfaction</p>
+    </div>
+  </section>
+
+  <!-- =========================
+       Why Choose Us / About
+  ========================== -->
+  <section id="about" class="about" aria-label="About Educa">
+    <div class="about-img">
+      <!-- Local image for about section -->
+      <img src="Lerners collaborating.jpeg" alt="Learners collaborating in a classroom" loading="lazy" />
+    </div>
+    <div class="about-text">
+      <h2>Why Choose Us?</h2>
+      <p>
+        We combine structured curriculum, hands-on projects, and mentorship to deliver outcomes.
+        Learn at your pace with on-demand lessons, live doubt-solving, and industry-ready capstones.
+      </p>
+      <a href="#contact" class="btn" aria-label="Contact Us">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- =========================
+       Courses Grid
+  ========================== -->
+  <section id="courses" aria-label="Our Courses">
+    <h2>Our <span>Courses</span></h2>
+
+    <div class="courses-container">
+      <!-- Course 1 -->
+      <article class="course-card" aria-label="Engineering Course">
+        <img src="Engineering.jpeg" alt="Engineering course cover" loading="lazy" />
+        <h3>Engineering</h3>
+        <p>Core mechanics, circuits, and systems—build fundamentals with hands-on labs.</p>
+        <a href="#contact" class="btn" aria-label="Enroll in Engineering">Enroll Now</a>
+      </article>
+
+      <!-- Course 2 -->
+      <article class="course-card" aria-label="Web Development Course">
+        <img src="Web development.jpeg" alt="Web development course cover" loading="lazy" />
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JS, and modern frameworks—ship responsive, production-grade UIs.</p>
+        <a href="#contact" class="btn" aria-label="Enroll in Web Development">Enroll Now</a>
+      </article>
+
+      <!-- Course 3 -->
+      <article class="course-card" aria-label="Digital Marketing Course">
+        <img src="Digital Marketing.jpeg" alt="Digital marketing course cover" loading="lazy" />
+        <h3>Digital Marketing</h3>
+        <p>SEO, content, and performance marketing—grow audiences and conversions.</p>
+        <a href="#contact" class="btn" aria-label="Enroll in Digital Marketing">Enroll Now</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- =========================
+       Teachers / Tutors
+  ========================== -->
+  <section id="teachers" aria-label="Expert Tutors">
+    <h2>Expert <span>Tutors</span></h2>
+
+    <div class="teacher-container">
+      <!-- Tutor 1 -->
+      <figure class="teacher-card" aria-label="Tutor John Deo">
+        <img src="image tutor1.jpeg" alt="Tutor John Deo" loading="lazy" />
+        <figcaption>
+          <h4>John Deo</h4>
+          <p>Senior Instructor — Full-Stack</p>
+        </figcaption>
+      </figure>
+
+      <!-- Tutor 2 -->
+      <figure class="teacher-card" aria-label="Tutor Jane Smith">
+        <img src="Lawyer Outfits for Women_ 10 Ideas You’ll Love for 2024 45.jpeg" alt="Tutor Jane Smith" loading="lazy" />
+        <figcaption>
+          <h4>Jane Smith</h4>
+          <p>Data Science &amp; ML</p>
+        </figcaption>
+      </figure>
+
+      <!-- Tutor 3 -->
+      <figure class="teacher-card" aria-label="Tutor Alex Roy">
+        <img src="Buisness Advertisement women with mobile _ AjuDimple.jpeg" alt="Tutor Alex Roy" loading="lazy" />
+        <figcaption>
+          <h4>Alex Roy</h4>
+          <p>Marketing Strategy</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- =========================
+       Reviews / Testimonials
+  ========================== -->
+  <section id="reviews" aria-label="Student Reviews">
+    <h2>Student’s <span>Reviews</span></h2>
+
+    <div class="review-container">
+      <!-- Review 1 -->
+      <article class="review-card" aria-label="Review by Riya">
+        <p>
+          “Structured content and great mentorship. I built real projects and landed an internship!”
+        </p>
+        <h4>Riya ⭐⭐⭐⭐⭐</h4>
+      </article>
+
+      <!-- Review 2 -->
+      <article class="review-card" aria-label="Review by Arjun">
+        <p>
+          “Loved the pace and clarity. The capstone gave me confidence to apply for roles.”
+        </p>
+        <h4>Arjun ⭐⭐⭐⭐⭐</h4>
+      </article>
+
+      <!-- Review 3 -->
+      <article class="review-card" aria-label="Review by Meera">
+        <p>
+          “Top-notch tutors and doubt support. Dark/light theme site is slick too!”
+        </p>
+        <h4>Meera ⭐⭐⭐⭐⭐</h4>
+      </article>
+    </div>
+  </section>
+
+  <!-- =========================
+       Contact / Lead Form
+  ========================== -->
+  <section id="contact" aria-label="Contact Form">
+    <h2>Contact <span>Us</span></h2>
+
+    <form id="contactForm" novalidate>
+      <input type="text" id="name"   name="name"   placeholder="Your Name"   aria-label="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+      <input type="tel" id="number"  name="number" placeholder="Your Number" aria-label="Your Number" required />
+
+      <select id="course" name="course" aria-label="Select Course" required>
+        <option value="">Select Course</option>
+        <option>Web Development</option>
+        <option>Science And Biology</option>
+        <option>Engineering</option>
+        <option>Digital Marketing</option>
+        <option>Graphic Design</option>
+        <option>Teaching</option>
+        <option>Data Analysis</option>
+        <option>Artificial Intelligence</option>
+      </select>
+
+      <div class="gender" role="radiogroup" aria-label="Select Gender">
+        <label><input type="radio" name="gender" value="Male" /> Male</label>
+        <label><input type="radio" name="gender" value="Female" /> Female</label>
+      </div>
+
+      <button type="submit" class="btn" aria-label="Send Message">Send Message</button>
+    </form>
+  </section>
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer aria-label="Site Footer">
+    <p>© 2025 Educa | All Rights Reserved</p>
+  </footer>
+
+  <!-- Attach your JS -->
+  <script src="script.js"></script>
+</body>
+</html>
