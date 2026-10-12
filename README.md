@@ -1,36 +1,37 @@
-# Educa
+# Educa-
+EducA - Online Learning Platform
 
-Educa is a responsive, single-page front-end concept for an online learning platform. It introduces course offerings, tutors, learner feedback, and a contact/enquiry form.
+EducA is a modern frontend website for an online learning platform.
+It is built using HTML, CSS, and JavaScript with a responsive design, dark/light theme toggle, and smooth UI effects.
 
-## Features
+🌟 Features
 
-- Course, tutor, review, and contact sections
-- Responsive page layout and sticky navigation
-- Light/dark theme toggle
-- Client-side form validation
-- Course and tutor imagery included with the project
+✅ Responsive Design (Mobile, Tablet, Desktop)
 
-The contact form is a client-side interface; no server-side form submission service is included.
+✅ Sticky Navigation Bar with Scroll Effect
 
-## Technology
+✅ Hero Section with CTA Button
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+✅ Courses Section (cards with hover effect + glassmorphism)
 
-## Run Locally
+✅ About Section (highlighting platform benefits)
 
-No package installation or compilation is required. Clone the repository and open `index.html` in a browser. A static web server can also be used to serve the project directory.
+✅ Teachers Section (cards with hover effect)
 
-## Project Structure
+✅ Reviews Section (student feedback)
 
-```text
-.
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── *.jpeg
-```
+✅ Contact Form with Validation
 
-The JPEG files in the root directory are the page's course, tutor, and decorative image assets.
+✅ Dark/Light Mode Toggle 🌙☀️
+⚙️ Technologies Used
+
+HTML5 – Structure of the website
+
+CSS3 – Styling with glassmorphism and hover effects
+
+JavaScript (ES6) – Functionality (form validation, theme toggle, smooth scroll)
+👨‍💻 Author
+
+Developed by Divyank Singh
+
+B.Tech Student | Frontend Developer | Tech Enthusiast 🚀
